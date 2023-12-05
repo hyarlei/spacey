@@ -1,16 +1,50 @@
 import { GlobalStyles } from './styles/globalstyles'
 
 import {
-  Container, Header, Logo, Main, FirstTitle, SecondTitle, Subtitle, AstrounautIllustration, DivButton, DivIcons, SectionAbout, ImageMars, DivAboutMars, SecondSubTitle, TextMars, GalleryContent, ContainerAbout, TextLogo, DivLogo, TextSubscribe, DivLogoSpaceY, SectionForm,
-  DivForm, IconForm, TitleForm, SubtitleForm, RocketImage, DivInputCheckbox, InputCheckbox, TextCheckbox, DivRocketImage, SectionFooter, DivImageSmoke, DivFooterBottom, DivSocial, DivFooterMenu, ContainerForm
+  AstrounautIllustration,
+  Container,
+  ContainerAbout,
+  ContainerForm,
+  DivAboutMars,
+  DivButton,
+  DivFooterBottom,
+  DivFooterMenu,
+  DivForm,
+  DivIcons,
+  DivImageSmoke,
+  DivInputCheckbox,
+  DivLogo,
+  DivLogoSpaceY,
+  DivRocketImage,
+  DivSocial,
+  FirstTitle,
+  GalleryContent,
+  Header,
+  IconForm,
+  ImageMars,
+  InputCheckbox,
+  Logo, Main,
+  RocketImage,
+  SecondSubTitle,
+  SecondTitle,
+  SectionAbout,
+  SectionFooter,
+  SectionForm,
+  Subtitle,
+  SubtitleForm,
+  TextCheckbox,
+  TextLogo,
+  TextMars,
+  TextSubscribe,
+  TitleForm
 } from './styles/styles'
 
-import { ArrowRight, ArrowLeft } from "./components/Gallery/styles"
+import { ArrowLeft, ArrowRight } from "./components/Gallery/styles"
 
-import Icon from './components/Icon'
-import Gallery from './components/Gallery'
-import Form from './components/Form'
 import Button from './components/Button'
+import Form from './components/Form'
+import Gallery from './components/Gallery'
+import Icon from './components/Icon'
 import pixelToRem from './utils/pxToRem'
 
 function App() {
@@ -240,7 +274,7 @@ e exclusiva." alt="Telescope" />
               },
             }}
           >
-            <img src="/images/smoke.svg" alt="" />
+            <img src="/images/smoke.svg" alt="smoke" />
           </DivImageSmoke>
 
 
@@ -250,9 +284,15 @@ e exclusiva." alt="Telescope" />
             </DivLogoSpaceY>
 
             <DivSocial>
-              <img src="/images/instagram.svg" alt="" />
-              <img src="/images/linkedin.svg" alt="" />
-              <img src="/images/facebook.svg" alt="" />
+              <a href="https://www.instagram.com/_hyarleisilva/">
+                <img src="/images/instagram.svg" alt="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/hyarlei-silva-b279b5250/">
+                <img src="/images/linkedin.svg" alt="linkedin" />
+              </a>
+              <a href="https://www.facebook.com/hyarley.silva.75">
+                <img src="/images/facebook.svg" alt="facebook" />
+              </a>
             </DivSocial>
 
             <DivFooterMenu>
